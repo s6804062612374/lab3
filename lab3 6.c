@@ -9,13 +9,13 @@ int main(){
 		}else if (score>=75){
 			printf("B");
 		}else if (score>=68){
-			printf("C");
+			printf("C %d\n",(75-score));
 		}	
 	}
 	else if (score>=55){
-		printf("D");
+			printf("D");
 	}else if (score>=0){
 		printf("F");
-	}
-	return 0;	
+	}	
+	return 0;
 }
